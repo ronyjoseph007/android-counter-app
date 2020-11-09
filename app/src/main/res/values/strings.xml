@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">counterApp</string>
+    <string name="_24">24</string>
+    <string name="total_count">Total count</string>
 </resources>
