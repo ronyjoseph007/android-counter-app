@@ -18,9 +18,11 @@
 
     />
     <TextView
+
+        android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/_24"
+        android:text="0"
         android:textSize="200sp"
         android:textColor="#000000"
         android:gravity="center"
@@ -35,6 +37,7 @@
         
         
         <Button
+            android:id="@+id/btminus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-"
@@ -43,6 +46,7 @@
 
         </Button>
         <Button
+            android:id="@+id/btplus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+"
@@ -57,10 +61,12 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/txreset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Reset Counter"
         android:gravity="center"
+        android:textColor="#d97983"
         android:textSize="30sp"
 
         >
