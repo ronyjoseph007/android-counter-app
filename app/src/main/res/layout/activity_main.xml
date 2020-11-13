@@ -9,6 +9,7 @@
     android:orientation="vertical">
 
     <TextView
+
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="@string/total_count"
@@ -23,7 +24,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="0"
-        android:textSize="200sp"
+        android:layout_marginBottom="200dp"
+        android:textSize="100sp"
         android:textColor="#000000"
         android:gravity="center"
         />
@@ -37,18 +39,23 @@
         
         
         <Button
+            android:background="@drawable/bg_buttonminus"
             android:id="@+id/btminus"
-            android:layout_width="wrap_content"
+            android:layout_width="45dp"
             android:layout_height="wrap_content"
             android:text="-"
+            android:layout_marginRight="10dp"
             android:textSize="25sp"
             >
 
         </Button>
         <Button
+            android:background="@drawable/bg_buttonplus"
             android:id="@+id/btplus"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:textColor="#f5f5f5"
+            android:layout_marginLeft="10dp"
             android:text="+"
             android:textSize="25sp"
             >
@@ -60,19 +67,20 @@
         
     </LinearLayout>
 
-    <TextView
+    <Button
+
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:id="@+id/txreset"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reset Counter"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"
         android:gravity="center"
-        android:textColor="#d97983"
-        android:textSize="30sp"
+        android:textColor="#dbd5d5"
+        android:textSize="20sp"
 
-        >
-
-
-    </TextView>
+        />
 
     
 

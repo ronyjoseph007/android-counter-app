@@ -27,7 +27,14 @@ public  class MainActivity extends AppCompatActivity {
         btminus.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                my_count=my_count-1;
+
+                if(my_count==0){
+
+                }else{
+                    my_count=my_count-1;
+                }
+
+
                 text.setText(my_count+ "");
             }
 
